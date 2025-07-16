@@ -11,7 +11,7 @@
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-/* Font size variables */
+  /* Font size variables */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -19,7 +19,6 @@
   --font-size-xx-large: 4.8rem;
 }
 
-/* Set base */
 html {
   font-size: 62.5%;
 }
@@ -39,4 +38,13 @@ a {
 }
 
 .card-category {
-  colo
+  color: var(--color-primary);
+}
+
+.section-tagline {
+  color: var(--color-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-title);
+}
