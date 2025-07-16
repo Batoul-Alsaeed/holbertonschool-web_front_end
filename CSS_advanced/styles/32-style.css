@@ -506,9 +506,6 @@ ul.row {
 	width: 100%;
 	object-fit: cover;
 	vertical-align: bottom;
-  /* Task 32: Scale up card-image on hover */
-  transform: scale(1.2);
-  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 /* 3. Style card-inner inside card-work */
 .card-work .card-inner {
@@ -523,8 +520,6 @@ ul.row {
 /* 4. On hover, darken card-inner */
 .card-work:hover .card-inner {
 	background-color: rgba(0, 0, 0, 0.7);
-/* Task 32: Scale down card-outer on hover */
-  transform: scale(0.95);
 }
 /* 5. Style card-title inside card-work */
 .card-work .card-title {
@@ -568,4 +563,15 @@ ul.row {
   color: #efeded;
   font-size: 10rem;
   z-index: -1;
+}
+
+/* Task 32 - Add transitions and animations */
+/* 1. Scale up card-image on hover */
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+/* 2. Scale down card-outer on hover */
+.card-work:hover .card-outer {
+  transform: scale(0.95);
 }
