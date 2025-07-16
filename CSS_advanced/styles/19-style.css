@@ -183,6 +183,7 @@ template,
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
+  --section-tagline-margin: 0;
 }
 /* Reset box sizing */
 *,
@@ -321,7 +322,7 @@ ul.row {
 }
 
 /* footer copyright */
-.footer .footer-copyright {
+.footer-copyright {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
