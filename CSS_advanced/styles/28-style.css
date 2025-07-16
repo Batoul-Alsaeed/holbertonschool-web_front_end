@@ -452,7 +452,7 @@ ul.row {
 
 /* Task 28 - Header and logo navigation styling */
 /* 1. Style the header element */
-header {
+.header {
   padding: var(--header-padding);
 }
 /* 2. Style the logo container */
