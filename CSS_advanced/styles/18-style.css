@@ -148,27 +148,22 @@ template,
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-
   /* Font Families */
   --font-family-base: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
-
   /* Font Sizes */
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
   --font-size-xx-large: 4.8rem;
-
   /* Font Weights */
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-
   /* Line Heights */
   --line-height-small: 1.2;
   --line-height-base: 1.5;
   --line-height-big: 1.8;
-
   /* Section Styling */
   --section-header-align: center;
   --section-tagline-transform: uppercase;
@@ -180,7 +175,6 @@ template,
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-
   /* Navbar Styling */
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
@@ -190,7 +184,6 @@ template,
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
-
 /* Reset box sizing */
 *,
 *:before,
@@ -286,14 +279,14 @@ a:active {
   float: right;
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-nav .nav-item {
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -302,11 +295,11 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
