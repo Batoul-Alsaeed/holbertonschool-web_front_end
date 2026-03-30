@@ -1,0 +1,51 @@
+/* Overwrite Primary Button Colors */
+.btn-primary {
+    background-color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #BC1340 !important;
+    border-color: #BC1340 !important;
+}
+
+/* Overwrite Outline Primary Button Colors */
+.btn-outline-primary {
+    color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+    background-color: #E0003C !important;
+    color: #ffffff !important;
+}
+
+/* Overwrite All Links Color */
+a,
+a:hover,
+a:focus {
+    color: #E0003C !important;
+}
+
+/* Overwrite Card Borders and Radius */
+.card {
+    border-color: #E0003C !important;
+    border-radius: 1rem !important;
+    overflow: hidden !important;
+}
+
+.card-header,
+.card-footer {
+    border-color: #E0003C !important;
+    background-color: #E0003C !important;
+    color: #ffffff !important;
+}
+
+/* Overwrite Muted Text Color */
+.text-muted {
+    color: #8C8C8C !important;
+}

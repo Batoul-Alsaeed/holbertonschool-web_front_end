@@ -8,38 +8,38 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
-    <body>
-        <header>
-            <ul>
-                <li>
+<body>
+        <header class="border-bottom p-2 mb-3 bg-light d-flex justify-content-between align-items-center">
+            <ul class="list-unstyled d-flex w-100 mb-0 align-items-center">
+                <li class="mr-auto">
                     <a href="/">
-                        <img src="https://dummyimage.com/150x50/a6a6a6/fff.png&text=150x50" />
+                        <img src="https://dummyimage.com/150x50/a6a6a6/fff.png&text=150x50" class="rounded" alt="Logo" />
                     </a>
                 </li>
-                <li>
-                    <a href="#">Chemical elements</a>
+                <li class="mr-2">
+                    <a href="#" class="btn btn-secondary active">Chemical elements</a>
                 </li>
                 <li>
-                    <a href="#">Profile</a>
+                    <a href="#" class="btn btn-secondary">Profile</a>
                 </li>
             </ul>
         </header>
 
-        <main>
+        <main class="container-fluid">
             <section>
-                <div role="alert">
-                    <h4>List of chemical elements</h4>
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">List of chemical elements</h4>
                     <p>This is a list of the 5 first chemical elements which have been identified as of 2019.</p>
                     <hr>
-                    <p>A popular visualization of all 118 elements is <a href="https://en.wikipedia.org/wiki/Periodic_table">the periodic table of the elements</a>.</p>
+                    <p class="mb-0">A popular visualization of all 118 elements is <a href="https://en.wikipedia.org/wiki/Periodic_table" class="alert-link">the periodic table of the elements</a>.</p>
                 </div>
             </section>
 
             <section>
-                <h1>Chemical elements <span>only 5</span></h1>
+                <h1 class="mb-4 mt-5">Chemical elements <span class="badge badge-info badge-pill">only 5</span></h1>
 
-                <div>
-                    <table>
+                <div class="table-responsive-lg">
+                    <table class="table table-dark table-hover mb-0">
                         <thead>
                             <tr>
                                 <th scope="col">Atomic number</th>
@@ -127,7 +127,7 @@
                                 <td>2</td>
                                 <td>10.81</td>
                                 <td>2.34</td>
-                                <td>2349</span></td>
+                                <td>2349</td>
                                 <td>4200</td>
                                 <td>1.026</td>
                                 <td>2.04</td>
