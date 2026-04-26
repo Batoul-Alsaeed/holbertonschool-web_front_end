@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cookies</title>
+
+<style>
+body{
+font-family: serif;
+padding:20px;
+}
+
+h1{
+font-size:60px;
+margin-bottom:50px;
+}
+
+input{
+padding:10px;
+font-size:20px;
+margin-right:10px;
+width:250px;
+}
+
+button{
+font-size:20px;
+padding:10px 20px;
+margin-top:50px;
+cursor:pointer;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Login to the website</h1>
+
+<input
+id="firstname"
+type="text"
+placeholder="Firstname"
+>
+
+<input
+id="email"
+type="text"
+placeholder="Email"
+>
+
+<button onclick="setCookies()">
+Log me in
+</button>
+
+<h1>Cookies</h1>
+
+<button onclick="showCookies()">
+Show the cookies
+</button>
+
+<script>
+
+function setCookies() {
+
+let firstname =
+document.getElementById('firstname').value;
+
+let email =
+document.getElementById('email').value;
+
+
+document.cookie =
+"firstname=" + firstname;
+
+document.cookie =
+"email=" + email;
+
+}
+
+
+function showCookies() {
+
+let p =
+document.createElement('p');
+
+p.innerHTML =
+"Cookies: " + document.cookie;
+
+document.body.appendChild(p);
+
+}
+
+</script>
+
+</body>
+</html>
